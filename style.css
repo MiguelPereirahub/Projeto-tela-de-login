@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+        :root{
+            --cor-1:rgb(98, 98, 219);
+            --cor-2:rgb(54, 54, 245);
+            --cor-3:rgb(16, 16, 103);
+            --cor-4:rgb(3, 3, 190);
+
+
+        }
+        body{
+            background-color: var(--cor-3);
+        }
+        section{
+            margin: 0px;
+            display: block;
+            height:500px;
+            width: 100%;
+            box-shadow:inset 3px 3px 3px var(--cor-3) ;
+            background-color: rgb(98, 98, 219);
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        article{
+            border-radius: 15px;
+            border: 1em solid var(--cor-3);
+            width: 50%;
+            padding: 10px;
+            /*background-color: var(--cor-2);*/
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        section > h1{
+            line-height: 10px;
+            color: var(--cor-3);
+            font-size: 5.5vw;
+            padding-bottom: 10px;
+            padding-left:10px ;
+            text-align: center;
+            font-variant: small-caps;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+        article > p {
+            text-shadow: 3px 3px 3px var(--cor-3) ;
+            padding-left: 0px;
+            font-variant: small-caps;
+            padding-left: 6px;
+            line-height: 2em;
+            text-align: left;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        article > input{
+            border: none;
+            border-top-left-radius:9px ;
+            border-bottom-right-radius: 9px;           
+            transform: translate(9%, -90.5%);
+            position: absolute;
+            padding-top: 0px;
+            width: 850%;
+            max-width:45vw;
+            color: var(--cor-3);
+            font-family: Arial Black, Helvetica, sans-serif;
+            font-weight: bold;
+
+        }
+        /*botão connfig*/
+        article > button{
+            right: 5%;
+            bottom: 5.5px;
+            position: absolute;
+            border: none;
+            font-variant:small-caps ;
+            font-weight: bolder;
+            line-height: 2em;
+            color: #fff;
+            border-top-right-radius:9px ;
+            border-bottom-right-radius: 9px;
+            background-color: var(--cor-3);
+
+        }
+        :hover article > button {
+        }
