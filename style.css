@@ -14,7 +14,7 @@
 
         }
         body{
-            background-color: var(--cor-3);
+            background-color: var(--cor-2);
         }
         section{
             border-bottom-right-radius:15px;
@@ -22,8 +22,8 @@
             margin: 0px;
             display: block;
             height:500px;
-            width: 90vh;
-            box-shadow:inset 3px 3px 3px var(--cor-3) ;
+            width: 80vh;
+            /*box-shadow:inset 3px 3px 3px var(--cor-3) ;*/
             background-color: rgb(98, 98, 219);
             left: 50%;
             top: 50%;
@@ -32,7 +32,7 @@
         }
         article{
             border-radius: 15px;
-            border: 1em solid var(--cor-3);
+            /*border: 1em solid var(--cor-3);*/
             width: 80%;
             padding: 10px;
             /*background-color: var(--cor-2);*/
@@ -44,7 +44,7 @@
             transform: translate(-50%,-50%);
         }
         section > h1{
-            line-height: 0;
+            line-height: -10px;
             color: var(--cor-3);
             font-size: 6vw;
             padding-bottom: 0px;
@@ -60,7 +60,7 @@
             padding-left: 0px;
             font-variant: small-caps;
             padding-left: 6px;
-            line-height: 2em;
+            line-height: 4em;
             text-align: left;
             color: white;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -72,17 +72,32 @@
             transform: translate(9%, -90.5%);
             position: absolute;
             padding-top: 0px;
-            width: 850%;
-            max-width:29vw;
+            width: 830%;
+            max-width:28vw;
             color: var(--cor-3);
             font-family: Arial Black, Helvetica, sans-serif;
             font-weight: bold;
 
         }
         /*botão connfig*/
+        article > .config-button-02{
+            line-height: 0em;
+            width:50%;
+            border-top-right-radius:0px ;
+            border-bottom-right-radius: 0px;
+            border-top-left-radius:9px ;
+            border-bottom-left-radius: 9px;
+            text-align: center top;
+            height: 25px;
+            padding: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-90%,650%);
+        }
         article > button{
             right: 5%;
-            bottom: 5.5px;
+            bottom: -3px;
             position: absolute;
             border: none;
             font-variant:small-caps ;
@@ -100,5 +115,27 @@
             background-color: var(--cor-2); 
             text-decoration: underline;
         }
+        *{
+            margin: 0px;
+        }
+        footer{
+            text-align: center;
+            color: white;
+            font-family: /*Impact,*/Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: var(--cor-3);
+            display: block;
+            margin: 0px;
+            width: 100%;
+            position: absolute;
+            transform: translate(0%, 96.5vh);
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
 
       
